@@ -1,82 +1,89 @@
 body {
-  background-color: #eff6fc;
+    background-color: #eff6fc;
+    margin: 0 0;
 }
 
-header.banner {
-  min-height: 48px;
-  background: #ffffff;
-  box-shadow: 0 0.3px 0.9px rgba(0, 0, 0, 0.1),
+header {
+    min-height: 48px;
+    margin: 0 0 4px 0;
+    background: #ffffff;
+    box-shadow: 0 0.3px 0.9px rgba(0, 0, 0, 0.1),
     0 1.6px 3.6px rgba(0, 0, 0, 0.13);
-  border-radius: 2px;
+    border-radius: 2px;
 }
 
 header h1 {
-  font-size: 42px;
-  font-weight: normal;
-  font-family: "Yu Mincho", serif;
-  text-align: center;
+    margin: 0 0;
+    font-size: 42px;
+    font-weight: normal;
+    font-family: serif;
+    text-align: center;
 }
 
 .card-list {
-  display: flex;
-  position: relative;
-  margin-top: 32px;
-  left: 10%;
-  width: 80%;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: row;
+    display: flex;
+    position: relative;
+    margin-top: 32px;
+    left: 10%;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .command {
-  display: flex;
-  position: relative;
-  margin-top: 32px;
-  left: 10%;
-  width: 80%;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: row;
+    display: flex;
+    position: relative;
+    margin-top: 32px;
+    left: 10%;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .card {
-  width: 300px;
-  height: 250px;
-  margin: 0 15px 30px 15px;
-  padding: 0;
-  background-color: var(--bg-w-pure);
-  border-radius: 8px;
-  -webkit-box-shadow: rgb(0 0 0 / 3%) 0 5px 10px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.03) 0 5px 10px;
-  box-shadow: rgb(0 0 0 / 3%) 0 5px 10px;
-  text-align: left;
-  overflow: hidden;
-  transition: 0.25s;
-  cursor: pointer;
+    width: 300px;
+    height: 250px;
+    margin: 0 15px 30px 15px;
+    padding: 0;
+    border-radius: 8px;
+    -webkit-box-shadow: rgb(0 0 0 / 3%) 0 5px 10px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.03) 0 5px 10px;
+    box-shadow: rgb(0 0 0 / 3%) 0 5px 10px;
+    text-align: left;
+    overflow: hidden;
+    transition: 0.25s;
+    cursor: pointer;
 }
 
 .card a {
-  width: 300px;
-  height: 250px;
-  outline: 0;
-  text-decoration: none;
-  transition: 0.25s;
+    width: 300px;
+    height: 250px;
+    outline: 0;
+    text-decoration: none;
+    transition: 0.25s;
 }
 
 .card img {
-  width: 300px;
-  height: 160px;
-  margin: 0 0;
+    width: 300px;
+    height: 160px;
+    margin: 0 0;
 }
 
 .card-content {
-  width: 300px;
-  height: 90px;
-  margin: 0 0;
-  padding: 0 0;
+    width: 300px;
+    height: 90px;
+    margin: 0 0;
+    padding: 4px 4px;
 }
 
 h3 {
-  margin: 0 0;
-  padding: 0 6px;
+    margin: 0 0;
+    padding: 0 6px;
+}
+
+p {
+    font-size: 8px;
+    color: black;
 }
