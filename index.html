@@ -13,6 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="./css/main.css"/>
+    <script src="./js/main.js"></script>
     <title>ÖÇÄÜµ¼º½Ò³</title>
 </head>
 <body>
@@ -26,44 +27,14 @@
     </div>
 </header>
 <main>
-    <div class="card-list">
-        <div class="card">
-            <a href="https://nas.52bilibili.com:9090" target="_blank">
-                <div class="card-img"><img src="" alt=""/></div>
-                <div class="card-content">
-                    <h3>Cockpit Web</h3>
-                    <p>Cockpit is a web-based graphical interface for servers, intended for everyone.</p>
-                </div>
-            </a>
-        </div>
-        <div class="card">
-            <a href="http://nas.52bilibili.com:8090" target="_blank">
-                <div class="card-img"><img src="" alt=""/></div>
-                <div class="card-content">
-                    <h3>qBittorrent Web</h3>
-                    <p>AdGuard Home is a network-wide software for blocking ads & tracking.</p>
-                </div>
-            </a>
-        </div>
-        <div class="card">
-            <a href="http://nas.52bilibili.com:3000" target="_blank">
-                <div class="card-img"><img src="" alt=""/></div>
-                <div class="card-content">
-                    <h3>Adguard Home</h3>
-                    <p>AdGuard Home is a network-wide software for blocking ads & tracking.</p>
-                </div>
-            </a>
-        </div>
-        <div class="card">
-            <a href="http://nas.52bilibili.com:5700" target="_blank">
-                <div class="card-img"><img src="" alt=""/></div>
-                <div class="card-content">
-                    <h3>QingLong</h3>
-                </div>
-            </a>
-        </div>
+    <div class="card-list" id="cardlist">
     </div>
 </main>
-<script src="./js/main.js"></script>
+<script>
+    window.onload = function () {
+        var f = run();
+        f();
+    }
+</script>
 </body>
 </html>

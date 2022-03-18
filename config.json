@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Adguard Home",
+    "url": "http://nas.52bilibili.com:3000",
+    "image": "/static/img/adguard.png",
+    "description": "Adguard Home is a free, open-source, cross-platform, browser-based, privacy-oriented, and ad-free web browser. It is designed to protect your privacy and reduce your online ad-blocking."
+  },
+  {
+    "title": "Cockpit Web",
+    "url": "http://nas.52bilibili.com:9090",
+    "image": "/static/img/cockpit.png",
+    "description": "Cockpit Web is a free, open-source, cross-platform, browser-based, privacy-oriented, and ad-free web browser. It is designed to protect your privacy and reduce your online ad-blocking."
+  },
+  {
+    "title": "qBittorrent",
+    "url": "http://nas.52bilibili.com:8090",
+    "image": "/static/img/qbittorrent.png",
+    "description": "qBittorrent is a free, open-source, cross-platform, browser-based, privacy-oriented, and ad-free web browser. It is designed to protect your privacy and reduce your online ad-blocking."
+  }
+]
